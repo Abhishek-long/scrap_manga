@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+chromedriver.exe
+
+# If using Render Disk for 'downloads', ignore the local one from Git
+downloads/
+
+# If LOG_FILE_PATH is just 'manga_downloader.log' (local), ignore it from Git
+# If it's inside 'downloads/' and 'downloads/' is ignored, this is covered.
+# If it's at the root locally:
+# manga_downloader.log
